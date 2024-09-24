@@ -74,5 +74,5 @@ const updateProduct = async (
     throw err;
   }
 };
-export default { selectAll, deleteProductById};
+export default { selectAll, deleteProductById,insertProduct,updateProduct};
 // export default { selectAll, deleteProductById, insertProduct, updateProduct };

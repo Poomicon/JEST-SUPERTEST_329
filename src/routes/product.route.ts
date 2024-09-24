@@ -10,9 +10,9 @@ productRouter.get("/", productController.getAll);
 productRouter.delete("/:id", productController.deleteById);
 
 // Endpoint to insert a new product
-//productRouter.post("/", productController.insertProduct);
+productRouter.post("/", productController.insertProduct);
 
 // Endpoint to update an existing product by ID
-//productRouter.put("/:id", productController.updateProduct);
+productRouter.put("/:id", productController.updateProduct);
 
 export default productRouter; 
